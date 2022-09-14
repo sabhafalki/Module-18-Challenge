@@ -1,4 +1,5 @@
 # Module-18-Challenge Cryptocurrencies - Unsupervised learning
+![download](/Image/download.png)<br>
 # Overview of Project #
 The purpose of this Project is to create a report that includes which cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment, so that they can help the customers by offering a new cryptocurrency investment portfolio.The data need to be processed to fit the machine learning models by using unsupervised learning.To group the cryptocurrencies,clustering algorithm is used.
 
@@ -26,14 +27,15 @@ Data Sources: crypto_data.csv
 ![PCA](/Image/PCA.png)
 
 ### Clustering Cryptocurrencies Using K-means ###
-- K-means is an unsupervised learning algorithm used to identify and solve clustering issues. Done creating a new **clustered_df** DataFrame.
+- K-means is an unsupervised learning algorithm used to identify and solve clustering issues. Done creating a new **clustered_df** DataFrame.<br>
+![clustered_df](/Image/clustered_df.png)<br>
 - Elbow curve is used etermine optimal value of k.we conclude that the optimal number of clusters for the data is 4.<br>
 
-![Undersampling](/Image/Undersampling.png)
+![Undersampling](/Image/Undersampling.png)<br>
 
 ### Visualizing Cryptocurrencies Results ###
 - scatter_3d plots represents individual data in three-dimensional space.
-- hvplot.scatter plot used to improve consistency or to provide additional functionality.
+- hvplot.scatter plot used to improve consistency or to provide additional functionality.<br>
 
 ![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
 
