@@ -31,7 +31,8 @@ Data Sources: crypto_data.csv
 ![Undersampling](/Image/Undersampling.png)
 
 ### Visualizing Cryptocurrencies Results ###
-
+- scatter_3d plots represents individual data in three-dimensional space.
+- hvplot.scatter plot used to improve consistency or to provide additional functionality.
 
 ![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
 
