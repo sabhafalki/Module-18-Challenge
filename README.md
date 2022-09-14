@@ -28,14 +28,19 @@ Data Sources: crypto_data.csv
 
 ### Clustering Cryptocurrencies Using K-means ###
 - K-means is an unsupervised learning algorithm used to identify and solve clustering issues. Done creating a new **clustered_df** DataFrame.<br>
+- 
 ![clustered_df](/Image/clustered_df.png)<br>
+
 - Elbow curve is used etermine optimal value of k.we conclude that the optimal number of clusters for the data is 4.<br>
 
-![Undersampling](/Image/Undersampling.png)<br>
+![Elbow](/Image/Elbow.png)<br>
 
 ### Visualizing Cryptocurrencies Results ###
-- scatter_3d plots represents individual data in three-dimensional space.
+- scatter_3d plots represents individual data in three-dimensional space.<br>
+
+![3D-Scatter](/Image/3D-Scatter.png)<br>
+
 - hvplot.scatter plot used to improve consistency or to provide additional functionality.<br>
 
-![Combination (Over and Under) Sampling](/Image/Combination_(Over_and_Under)_Sampling.png)
+![hvplot.scatter](/Image/hvplot.scatterg.png)
 
