@@ -17,8 +17,11 @@ Data Sources: crypto_data.csv
 # Results #
 ### Preprocessing the Data for PCAs ###
 - The **crypto_df** DataFrame, We perfrom certain steps to preprocessing the data.<br>
+
 ![crypto_df](/Image/crypto_df.png)<br>
+
 - After that, Standardize the data with StandardScaler() to removing the mean and scaling to unit variance.<br>
+
 ![Standard](/Image/Standard.png)<br>
 
 ### Reducing Data Dimensions Using PCA ###
@@ -28,7 +31,7 @@ Data Sources: crypto_data.csv
 
 ### Clustering Cryptocurrencies Using K-means ###
 - K-means is an unsupervised learning algorithm used to identify and solve clustering issues. Done creating a new **clustered_df** DataFrame.<br>
-- 
+
 ![clustered_df](/Image/clustered_df.png)<br>
 
 - Elbow curve is used etermine optimal value of k.we conclude that the optimal number of clusters for the data is 4.<br>
@@ -42,5 +45,5 @@ Data Sources: crypto_data.csv
 
 - hvplot.scatter plot used to improve consistency or to provide additional functionality.<br>
 
-![hvplot.scatter](/Image/hvplot.scatterg.png)
+![hvplot.scatter](/Image/hvplot.scatter.png)
 
